@@ -1,0 +1,29 @@
+body {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tabellone {
+    background-image: url(./assets/paper.jpg);
+    padding: 1em;
+    margin: 20px auto;
+}
+
+.tabellone, .numbers {
+    border: 1px solid rgb(56, 84, 142);
+}
+
+.numbers {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.button {
+    background-color: rgb(49, 176, 77);
+    color: white;
+    height: 30px;
+}
